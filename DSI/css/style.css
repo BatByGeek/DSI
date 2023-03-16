@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 40px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 71px;
+  height: 56px;
+  margin-right: 5px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu__list-items:last-child {
+  margin-right: 0px;
+}
+
+.menu__list-items {
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+.menu__list_items-link {
+  color: #1f2e35cc;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 21.09px;
+  font-size: 18px;
+}
+
+.icon {
+  margin-right: 24px;
+}
+
+.logo__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.logo__text-1 {
+  color: #00000099;
+}
+
+.logo__text-2 {
+  color: #263238cc;
+}
+
+.logo__text-3 {
+  color: #263238;
+}
+
+/* main */
+
+.main {
+  padding-top: 80px;
+}
+
+.main__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inner__left-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 64.17px;
+  color: #1f2e35;
+  font-size: 48px;
+}
+
+.inner__left-description {
+  padding: 24px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28.94px;
+  color: #30444e;
+}
+
+span {
+  color: #ee4248;
+  font-weight: 700;
+}
+
+.inner__left input[type="button"] {
+  width: 161px;
+  height: 53px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ee4248;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.inner__left input[type="button"]:hover {
+  background-color: white;
+  color: black;
+  transition: all 500ms ease;
+}
+
+/* section [about] */
+
+.section {
+  margin-top: 200px;
+  background-color: #f6f6f6;
+  height: 500px;
+  padding-top: 57px;
+}
+
+.section__about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about__right {
+    padding-top: 60px;
+}
+.about__right-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42.78px;
+  color: #1f2e35;
+  padding-bottom: 24px;
+}
+.about__right-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* section [product] */
+
+.product {
+    margin-top: 116px;
+    height: 510px;
+}
+
+.product__inner-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42.78px;
+    margin-bottom: 47px;
+}
+
+.product__inner-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__subtitle {
+    padding-top: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #EE4248;
+}
+
+.card__description {
+    padding: 15px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #30444E;
+}
+
+.card button {
+    width: 119px;
+    height: 42px;
+    border: none;
+    background-color: #EE4248;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26.04px;
+    border-radius: 4px;
+}
+
+/* section [contact] */
+
+.contact {
+    padding-top: 138px;
+    height: 310px;
+}
+
+.contact__inner {
+    display: flex;
+}
+
+.logo-block {
+    display: flex;
+}
+
+.logo-block img {
+    margin-right: 5px;
+}
+
+.contact__inner-left {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.adress {
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: #263238;
+}
+
+.street {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26.85px;
+  color: #263238;
+}
+
+.contact__inner-right {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 50px;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  line-height: 26.85px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.contact__inner-right h2 {
+  margin-bottom: 45px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #263238;
+}
+
+/* footer */
+
+.footer {
+  height: 64px;
+  margin-top: 23px;
+  background-color: #EE4248;
+  line-height: 64px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  
+}
